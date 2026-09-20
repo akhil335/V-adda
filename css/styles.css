@@ -17,6 +17,7 @@ body {
   color: var(--ink);
   font-family: "DM Sans", sans-serif;
 }
+
 .top-line {
   height: 4px;
   background: var(--gold);
@@ -417,6 +418,7 @@ footer .brand {
 .floating-call {
   display: none;
 }
+ 
 @media (max-width: 700px) {
   .site-header {
     height: 72px;
@@ -509,6 +511,9 @@ footer .brand {
   .features {
     display: block;
     margin: 0 24px;
+  }
+  .features article:not(:first-child):not(:last-child) {
+  margin:20px 0;
   }
   .features article {
     border-right: 0;

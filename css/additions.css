@@ -83,7 +83,7 @@
 .pulse-grid {
   max-width: 1180px;
   margin: 48px auto 0;
-  padding: 0 42px;
+  padding: 0 42px 30px 42px;
   display: grid;
   grid-template-columns: 1.05fr 0.7fr 0.7fr;
   gap: 25px;
@@ -470,6 +470,11 @@ footer {
 .features article:nth-child(3) {
   transition-delay: 0.24s;
 }
+
+.container-padding-y {
+ padding: 50px 0;
+}
+
 @media (max-width: 700px) {
   .site-header {
     top: 12px;
